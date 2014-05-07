@@ -15,7 +15,6 @@
 class docker_fixes (
   $package_ensure = 'present'
 ){
-    
     # the permission of /usr/bin/sudo are screwed up
     # let's fix them!
 
